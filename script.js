@@ -4,8 +4,8 @@ function agregar(value) {
   
   function calcular() {
     const valorPantalla = document.getElementById('pantalla').value;
-    const result = eval(valorPantalla);
-    document.getElementById('pantalla').value = result;
+    const resultado = eval(valorPantalla);
+    document.getElementById('pantalla').value = resultado;
   }
   
   function limpiar() {
